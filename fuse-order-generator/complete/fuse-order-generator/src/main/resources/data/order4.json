@@ -1,0 +1,22 @@
+{
+    "orderId" : 0,
+    "customer" : {
+        "id": "D0004",
+        "name": "Dartmoor Zoological Park",
+        "city": "Devon",
+        "country": "UK"
+    },
+    "date": "2012-03-04",
+    "items": [
+        {
+            "articleId": "D0040",
+            "description" : "Dinosaur",
+            "quantity" : 4
+        },
+        {
+            "articleId": "D0400",
+            "description" : "Dragonfly",
+            "quantity" : 40
+        }
+    ]
+}

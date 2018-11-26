@@ -1,0 +1,22 @@
+{
+    "orderId" : 0,
+    "customer" : {
+        "id": "E0004",
+        "name": "Erie Zoo",
+        "city": "Erie",
+        "country": "US"
+    },
+    "date": "2012-03-05",
+    "items": [
+        {
+            "articleId": "E0500",
+            "description" : "Elk",
+            "quantity" : 50
+        },
+        {
+            "articleId": "E0005",
+            "description" : "Elephant",
+            "quantity" : 5
+        }
+    ]
+}

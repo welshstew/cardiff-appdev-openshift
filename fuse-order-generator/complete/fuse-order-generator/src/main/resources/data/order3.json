@@ -1,0 +1,22 @@
+{
+    "orderId" : 0,
+    "customer" : {
+        "id": "C0003",
+        "name": "Columbus Zoo and Aquarium",
+        "city": "Columbus",
+        "country": "US"
+    },
+    "date": "2012-03-03",
+    "items": [
+        {
+            "articleId": "C0003",
+            "description" : "Camel",
+            "quantity" : 100
+        },
+        {
+            "articleId": "C0333",
+            "description" : "Crocodile",
+            "quantity" : 1
+        }
+    ]
+}

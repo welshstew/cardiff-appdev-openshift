@@ -1,0 +1,21 @@
+rules:
+- pattern: 'org.apache.camel<context=camel, type=routes, name=\"(.*)\"><>LastProcessingTime'
+  name: camel_last_processing_time
+  help: Last Processing Time [milliseconds]
+  type: GAUGE
+  labels:
+    route: $1
+
+- pattern: 'org.apache.camel<context=camel, type=routes, name=\"(.*)\"><>ExchangesCompleted'
+  name: camel_exchanges_completed
+  help: Camel Exchanges Completed
+  type: COUNTER
+  labels:
+    route: $1
+
+- pattern: 'org.apache.camel<context=camel, type=routes, name=\"(.*)\"><>ExchangesFailed'
+  name: camel_exchanges_failed
+  help: Camel Exchanges Failed
+  type: COUNTER
+  labels:
+    route: $1
