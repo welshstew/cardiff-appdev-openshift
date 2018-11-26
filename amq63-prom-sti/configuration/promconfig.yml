@@ -1,0 +1,7 @@
+rules:
+  - pattern: 'org.apache.activemq<type=(\w+), brokerName=(.*?), destinationType=(\w+), destinationName=(.*?)><>QueueSize'
+    name: queue_size
+    help: Queue Size
+    type: GAUGE
+    labels:
+      destination: $4
